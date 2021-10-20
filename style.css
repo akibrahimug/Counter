@@ -1,0 +1,58 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imgs/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg)center/cover no-repeat;
+}
+
+.wrapper{
+    text-align: center;
+    color: azure;
+    width: 70%;
+    border: 5px solid black;
+    padding: 30px;
+    box-shadow: 10px 10px 60px 30px black;
+}
+
+h1{
+    margin-top: 0;
+}
+
+h3{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.minus,
+.add{
+    width: 20%; 
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+
+}
+
+.minus:hover{
+    background-color:rgb(255, 0, 43);
+    box-shadow: 3px 6px 15px 5px black;
+    color: azure;  
+}
+
+.add:hover{
+    background-color:rgb(0, 132, 255);
+    box-shadow: 3px 6px 15px 5px black;
+    color: azure;  
+}
+
+
+@media(min-width:751px){
+    .wrapper{
+        max-width: 40%;
+    }
+}
